@@ -1,0 +1,27 @@
+.header-bar {
+  display: flex;
+  width: 600px;
+  height: 54px;
+  border-right: solid rgb(55, 55, 55);
+  border-bottom: solid rgb(55, 55, 55);
+  border-width: 1px;
+  position: fixed;
+  top: 0;
+  left: 595px;
+}
+
+.header-select-button {
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 26px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.settings-gear {
+  height: 16px;
+  width: 16px;
+  padding-top: 20px;
+  margin-right: 24px;
+}

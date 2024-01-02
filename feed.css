@@ -1,0 +1,15 @@
+.tweeting-section {
+  border: solid rgb(55, 55, 55);
+  border-width: 1px;
+  display: flex;
+  margin-top: 54px;
+  margin-left: 586px;
+  width: 600px;
+  height: 120px;
+}
+
+.profile-picture {
+  height: 36px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
