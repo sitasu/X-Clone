@@ -5,3 +5,8 @@ body {
   font-size: 14px;
   height: 3000px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
