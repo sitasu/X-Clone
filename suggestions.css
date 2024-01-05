@@ -43,8 +43,12 @@
 }
 
 .sidebar-right {
-  border-left: solid 1px rgb(55, 55, 55);
-  padding-left: 1224px;
+  margin-left: 1195px;
+  padding-left: 29px;
+  border-left: solid;
+  border-width: 1px;
+  border-color: rgb(55, 55, 55);
+  height: 9999px;
 }
 
 .subscribe-ad {
@@ -82,6 +86,11 @@
   border-radius: 50px;
 }
 
+.subscribe-button:hover {
+  background-color: rgb(0, 111, 201);
+  cursor: pointer;
+}
+
 .trends-section {
   display: flex;
   flex-direction: column;
@@ -94,18 +103,25 @@
   font-weight: 700;
   font-size: 20px;
   padding-top: 14px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 16px;
 }
 
 .trend {
   display: flex;
   justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.trend:hover {
+  background-color: rgb(31, 32, 42);
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .trend-topic {
   padding-left: 14px;
-  margin-bottom: 26px;
 }
 
 .trend-text{
@@ -132,22 +148,32 @@
 }
 
 .show-more {
-  padding-left: 16px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 16px;
   color: rgb(0, 140, 255);
   font-size: 15px;
+}
+
+.show-more:hover {
+  border-radius: 0  0px  24px  24px;
+  background-color: rgb(31, 32, 42);
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .follow-recommends {
   background-color: rgb(22, 23, 30);
   margin-top: 20px;
-  height: 300px;
+  margin-bottom: 20px;
+  height: 310px;
   width: 350px;
   border-radius: 20px;
 }
 
 .follow-main {
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 20px;
   font-size: 20px;
   font-weight: 700;
@@ -156,8 +182,15 @@
 .profile-card-2 {
   display: flex;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20px;
+}
+
+.profile-card-2:hover {
+  background-color: rgb(31, 32, 42);
+  cursor: pointer;
+  transition: 0.25s;
 }
 
 .profile-picture-2 {
@@ -196,8 +229,69 @@
 }
 
 .show-more-2 {
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 16px;
   color: rgb(0, 140, 255);
   font-size: 15px;
+}
+
+.show-more-2:hover {
+  border-radius: 0  0px  20px  20px;
+  background-color: rgb(31, 32, 42);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.messages-bar {
+  display: flex;
+  position: fixed;
+  top: 926px;
+  bottom: -15px;
+  left: 1482px;
+  right: 20px;
+  z-index: 300;
+  background-color: black;
+  border-radius: 18px;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.messages-text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.bar-extend-icon {
+  height: 20px;
+}
+
+.help-section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 40px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.help-row-1 {
+  display: flex;
+}
+
+.help-row-2 {
+  display: flex;
+}
+
+.help-info {
+  color: rgb(150, 150, 150);
+  padding-right: 10px;
+}
+
+.copy-right {
+  color: rgb(150, 150, 150);
+  padding-left: 20px;
+  padding-top: 10px;
 }
