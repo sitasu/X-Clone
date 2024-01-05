@@ -1,5 +1,5 @@
 .header-bar {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   display: flex;
   width: 600px;
   height: 54px;
@@ -14,16 +14,36 @@
 
 .header-select-button {
   padding-top: 20px;
-  margin-left: 10px;
-  margin-right: 26px;
   display: flex;
   flex: 1;
   justify-content: center;
 }
 
+.header-select-button:hover {
+  background-color: rgb(20, 20, 20);
+}
+
+.header-select-button-2 {
+  color: rgb(150, 150, 150);
+  padding-top: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-select-button-2:hover {
+  background-color: rgb(20, 20, 20);
+}
+
 .settings-gear {
   height: 16px;
   width: 16px;
-  padding-top: 20px;
-  margin-right: 24px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.settings-gear-holder:hover {
+  background-color: rgb(20, 20, 20);
+  border-radius: 50px;
 }
