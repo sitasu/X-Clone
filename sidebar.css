@@ -1,3 +1,8 @@
+.left-panel {
+  display: flex;
+  flex: 1fr;
+}
+
 .nav-list {
   background-color: black;
   display: flex;
@@ -141,4 +146,20 @@
 .three-dots {
   height: 18px;
   padding-top: 6px;
+}
+
+@media (max-width: 1300px) {
+  .nav-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 176px;
+    padding-left: 0;
+    align-items: end;
+  }
+
+  .nav-text {
+    opacity: 0;
+  }
 }
