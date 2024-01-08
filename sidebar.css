@@ -88,14 +88,22 @@
   margin-left: 20px;
 }
 
+.nav-button:active .more-panel {
+  opacity: 1;
+}
+
 .more-panel {
   position: absolute;
   background-color: black;
-  width: 300px;
-  height: 200px;
+  width: 312px;
+  height: 224px;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+  bottom: -12px;
+  left: -0px;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .setting-select-1 {
@@ -104,6 +112,16 @@
   font-size: 20px;
   font-weight: 700;
   border-bottom: solid 1px rgb(50, 50, 50);
+}
+
+.setting-select-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 700;
 }
 
 .setting-expand {
