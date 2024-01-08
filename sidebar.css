@@ -1,6 +1,10 @@
 .left-panel {
   display: flex;
-  flex: 1fr;
+  flex: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .nav-list {
@@ -69,7 +73,9 @@
   border-radius: 25px;
   margin-top: 6px;
   margin-bottom: 6px;
-
+  color: white;
+  text-decoration: none;
+  position: relative;
 }
 
 .nav-button:hover {
@@ -80,6 +86,28 @@
 .nav-text {
   font-size: 20px;
   margin-left: 20px;
+}
+
+.more-panel {
+  position: absolute;
+  background-color: black;
+  width: 300px;
+  height: 200px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+.setting-select-1 {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: solid 1px rgb(50, 50, 50);
+}
+
+.setting-expand {
+  height: 10px;
 }
 
 .post-button-1 {
